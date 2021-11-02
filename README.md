@@ -8,14 +8,14 @@ Implementar os algoritmos Counting Sort e Radix Sort  realizando experimentos qu
 Comparar estes algoritmos com o QuickSort para os mesmos vetores.
 Anexe os códigos e apresente as seguintes tabelas: 
 
-#### Operações de Comparação 1.000	| 10.000	| 100.000	| 1.000.000
-Counting Sort ---------------------------------------------------<br> 
-Radix Sort  ------------------------------------------------------				 <br>
-Quick Sort  ------------------------------------------------------				 <br>
+#### Operações de Comparação | 1.000	| 10.000	| 100.000	| 1.000.000
+Counting Sort -------------------------------------------------------------<br> 
+Radix Sort  ---------------------------------------------------------------				 <br>
+Quick Sort  ---------------------------------------------------------------				 <br>
 
 
 
-#### Tempo de Execução 1.000 | 10.000	| 100.000	 | 1.000.000
-Counting Sort-----------------------------------------------		<br>		 
-Radix Sort--------------------------------------------------				 <br>
-Quick Sort--------------------------------------------------  <br>
+#### Tempo de Execução | 1.000 | 10.000	| 100.000	 | 1.000.000
+Counting Sort---------------------------------------------------		<br>		 
+Radix Sort------------------------------------------------------				 <br>
+Quick Sort------------------------------------------------------  <br>
