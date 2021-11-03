@@ -8,10 +8,10 @@ void countingSort(int *a, int k,int tamanhoDoVetor, int *QtdOperacoesDeComparaca
 void printarVetor(int vetor[]);
 int main()
 {
-    prepararCountingSort(99999,10);
-    //prepararCountingSort(99999,10000);
-    //prepararCountingSort(99999,100000);
-    //prepararCountingSort(99999,1000000);
+    prepararCountingSort(99999,1000);
+    prepararCountingSort(99999,10000);
+    prepararCountingSort(99999,100000);
+	prepararCountingSort(99999,1000000);
     
     return 0;
 }
@@ -93,18 +93,14 @@ void countingSort(int *a, int k,int tamanhoDoVetor, int *QtdOperacoesDeComparaca
         c[a[i]] = c[a[i]]-1;
     }
 
-    
-    //acessa o endereço de memória da variável "vetor" e faz com que os valores sejam ordenados da mesma forma como na variável "c" que está dentro dessa atual função
+    /*
+    //Imprime o vetor ordenado
     for(int i=0;i<tamanhoDoVetor;i++){
-        prinf("%d",b[i])
+        printf("%d\n",b[i]);
     }
-    
+    */
+	
     
     
 }
 
-void printarVetor(int *vetor){
-    for(int i=0;i<vetor;i++){
-        printf("%d\n",vetor[i]);
-    }
-}
